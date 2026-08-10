@@ -17,7 +17,7 @@ Both implementations were synthesized and implemented in **Vivado** on a **Basys
 | LUTs | 71 | 78 |
 | Flip-Flops | 34 | 67 |
 | Worst Negative Slack (WNS) | **+3.193 ns** | **+5.811 ns** |
-| DSP | 0 | 0 |
+| DSP Blocks | 0 | 0 |
 
 ## Architecture
 
@@ -346,7 +346,7 @@ Several architectural decisions were made while developing this project.
 | Throughput | 1 result / cycle | 1 result / cycle |
 | LUT Usage | 71 | 78 |
 | Flip-Flop Usage | 34 | 67 |
-| Timing Margin | + 3,193 ns | + 5.811 ns |
+| Worst Negative Slack (WNS) | **+3.193 ns** | **+5.811 ns** |
 
 ---
 
