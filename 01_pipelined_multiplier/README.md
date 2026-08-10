@@ -10,6 +10,20 @@ The second implementation (**V2**) is a pipelined architecture that splits each 
 
 Both implementations were synthesized and implemented in **Vivado** on a **Basys 3 (Artix-7)** FPGA to compare functionality, resource utilization, and timing performance.
 
+## Architecture
+
+![Pipeline Architecture](images/pipeline_architecture.png)
+
+## Architecture Summary
+
+The multiplier is implemented as a three-stage pipeline:
+
+- **Stage 0:** Registers the input operands.
+- **Stage 1:** Splits the operands into upper and lower halves, computes the four partial products, and registers the intermediate results.
+- **Stage 2:** Combines the partial products using shift-and-add logic and registers the final product.
+
+A pipelined valid signal (`in_valid` → `valid_input_reg` → `valid_partial_reg` → `out_valid`) ensures that the output remains aligned with the corresponding input data.
+
 ---
 
 # Target Platform
