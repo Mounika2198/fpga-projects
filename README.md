@@ -18,8 +18,9 @@ A collection of FPGA projects developed in **SystemVerilog** to learn and demons
 ## Tools
 
 - SystemVerilog
-- Vivado
-- Xilinx Artix-7 (Basys 3)
+- Vivado 2023.2
+- Basys 3 (Artix-7 FPGA)
+- Git & GitHub
 
 ## Goals
 
