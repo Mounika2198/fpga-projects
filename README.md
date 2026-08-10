@@ -6,13 +6,14 @@ A collection of FPGA projects developed in **SystemVerilog** to learn and demons
 
 | Project | Status |
 |----------|--------|
-| 01 - Pipelined Multiplier | 🚧 In Progress |
+| 01 - Pipelined Multiplier | ✅ Complete |
 | 02 - Multiply Accumulate (MAC) | ⏳Planned |
 | 03 - FIR Filter | ⏳Planned |
 | 04 - UART | ⏳Planned |
-| 05 - VGA Controller | ⏳Planned |
-| 06 - Pong Game | ⏳Planned |
-| 07 - Simple CPU | ⏳Planned |
+| 05 - FIFO | ⏳Planned |
+| 06 - VGA Controller | ⏳Planned |
+| 07 - Pong Game | ⏳Planned |
+| 08 - 5-Stage RISC-V Processor | ⏳Planned |
 
 ## Tools
 
