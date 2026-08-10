@@ -10,6 +10,15 @@ The second implementation (**V2**) is a pipelined architecture that splits each 
 
 Both implementations were synthesized and implemented in **Vivado** on a **Basys 3 (Artix-7)** FPGA to compare functionality, resource utilization, and timing performance.
 
+## Results at a Glance
+
+| Metric | V1 | V2 |
+|---------|---:|---:|
+| LUTs | 71 | 78 |
+| Flip-Flops | 34 | 67 |
+| Worst Negative Slack (WNS) | **+3.193 ns** | **+5.811 ns** |
+| DSP | 0 | 0 |
+
 ## Architecture
 
 ![Pipeline Architecture](images/pipeline_architecture.png)
@@ -333,11 +342,11 @@ Several architectural decisions were made while developing this project.
 | Feature | V1 | V2 |
 |----------|----|----|
 | Pipeline Stages | 2 | 3 |
-| Latency | Lower | Higher |
+| Latency | 2 cycles | 3 cycles |
 | Throughput | 1 result / cycle | 1 result / cycle |
-| LUT Usage | Lower | Slightly Higher |
-| Flip-Flop Usage | Lower | Higher |
-| Timing Margin | Good | Better |
+| LUT Usage | 71 | 78 |
+| Flip-Flop Usage | 34 | 67 |
+| Timing Margin | + 3,193 ns | + 5.811 ns |
 
 ---
 
