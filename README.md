@@ -27,4 +27,4 @@ A collection of FPGA projects developed in **SystemVerilog** to learn and demons
 - Build reusable RTL modules
 - Practice FPGA implementation
 - Learn timing optimization and pipelining
-- Develop a professional RTL design portfolio
+- Build a professional FPGA and RTL design portfolio
