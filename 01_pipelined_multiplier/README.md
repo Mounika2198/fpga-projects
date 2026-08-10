@@ -10,7 +10,7 @@ The goal of the project was to understand how pipelining affects latency, throug
 ## Target
 
 - FPGA: Xilinx Artix-7
-- Device: `xc7a35tcpg236-1`
+- Device: 'xc7a35tcpg236-1'
 - Board: Basys 3
 - Tool: Vivado
 - RTL: SystemVerilog
@@ -18,16 +18,16 @@ The goal of the project was to understand how pipelining affects latency, throug
 
 ## Project Structure
 
-01_pipelined_multiplier/
-├── rtl/
+01_pipelined_multiplier
+├── rtl
 │   ├── multiplier_v1_registered.sv
 │   └── multiplier_v2_pipelined.sv
-├── tb/
+├── tb
 │   ├── tb_multiplier_v1_registered.sv
 │   └── tb_multiplier_v2_pipelined.sv
-├── constraints/
+├── constraints
 │   └── timing.xdc
-├── reports/
+├── reports
 └── README.md
 
 ## Version 1
