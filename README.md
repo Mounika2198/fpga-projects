@@ -9,8 +9,8 @@ A collection of FPGA projects developed in **SystemVerilog** to learn and demons
 | 01 - Pipelined Multiplier | ✅ Complete |
 | 02 - Multiply Accumulate (MAC) | ✅ Complete |
 | 03 - FIR Filter | ✅ Complete |
-| 04 - UART | ⏳Planned |
-| 05 - FIFO | ⏳Planned |
+| 04 - FIFO | ⏳Planned |
+| 05 - UART | ⏳Planned |
 | 06 - VGA Controller | ⏳Planned |
 | 07 - Pong Game | ⏳Planned |
 | 08 - 5-Stage RISC-V Processor | ⏳Planned |
