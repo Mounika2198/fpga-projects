@@ -8,7 +8,7 @@ A collection of FPGA projects developed in **SystemVerilog** to learn and demons
 |----------|--------|
 | 01 - Pipelined Multiplier | ✅ Complete |
 | 02 - Multiply Accumulate (MAC) | ✅ Complete |
-| 03 - FIR Filter | ⏳Planned |
+| 03 - FIR Filter | ✅ Complete |
 | 04 - UART | ⏳Planned |
 | 05 - FIFO | ⏳Planned |
 | 06 - VGA Controller | ⏳Planned |
